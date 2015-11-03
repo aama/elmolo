@@ -2116,7 +2116,7 @@
     :common {:morpheme :DERVSTEMS,
 	    :pos :Verb,
 	    :verbMorphClass :DervStem}
-    :terms [[:derivedCategory, :number, :person, :polarity, :tam, :token, :token-affix]  ;; schema
+    :terms [[:derivedCategory, :number, :person, :polarity, :tam, :token, :token-note-affix]  ;; schema
 	    [:Benefactive, :Plural, :Person3, :Affirmative, :Imperfect, "î-ká-", "ka-"],
 	    [:Instrumental, :Invariable, :Invariable, :Invariable, :Invariable, "ka-", "ka-"],
 	    [:Intransitive, :Plural, :Person1, :Affirmative, :Perfect, "an-‘ín-íno-", "àn-‘ánà-"],
