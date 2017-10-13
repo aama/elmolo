@@ -5,24 +5,20 @@
 :datasource "Heine1980d"
 :geodemoURL "http://www.ethnologue.com/language/elo"
 :geodemoTXT "The Western Omo-Tana language, Elmolo was spoken in Kenya on the southeastern shore of Lake Turkana; it is not certain whether there are still any speakers ."
-:schemata{:gender [:Common :Fem :Masc],
-          :position [:PersAsp :PrefV :SuffV],
-          :pdgmSubType [:CopPossession],
-          :polarity [:Affirmative :Invariable :Negative],
-          :conjClass [:Prefix :Stative :Suffix],
-          :pdgmType [:Finite :NA]
-          :pos [:Pronoun :Verb],
-          :person [:Invariable :Person1 :Person2 :Person3],
-          :derivedCategory [:Ablative :Benefactive :Frequentative :Instrumental :Intransitive :Reflexive :Ventive],
-          :morphClass [:COPULAPOSS],
-          :synEnv [:A :B],
-          :final [:C :V-non-a :a],
-          :proClass [:Independent :ObjAff :Possessive],
-          :tam [:Imperative :Imperfect :Inceptive :Invariable :Perfect :Subjunctive],
-          :number [:Invariable :Plural :Singular],
-          :patternClass [:Final-i-e],
-          :verbMorphClass [:DervStem :PersAffix :SubjMarker],
-          :statusClass [:Adjective :AgentlessVerb]}
+ :schemata {:conjClass [:Prefix  :Stative :Suffix],
+            :derivedCategory [:Ablative :Benefactive :Frequentative :Instrumental :Intransitive :Reflexive :Ventive],
+            :gender [:Common :Fem :Masc],
+            :number [:Invariable :Plural :Singular :_NA],
+            :patternClass [:Final-i-e :_NA],
+            :person [:Invariable :Person1 :Person2 :Person3 :_NA],
+            :polarity [:Affirmative :Invariable :Negative :_NA],
+            :pos [:Pronoun :Verb],
+            :position [:PersAsp :PrefV :SuffV],
+            :proClass [:Independent :ObjAff :Possessive],
+            :synEnv [:A :B],
+            :tam [:Imperative :Imperfect :Inceptive :Invariable :Perfect :Subjunctive :_NA],
+            :verbMorphClass [:DervStem :PersAffix :SubjMarker]
+            :pdgmType [:Finite :PersAffix :DERVSGTEMS :PRO :SUBJMARKERADDIMPRTV :SUBJMARKERAFFIMPERF :SUBJMARKERAFFPERF :SUBJMARKERAFFSUBJUNCTIVE :SUBJMARKERNEGIMPERF :SUBJMARKERNEGIMPRTV :SUBJMARKERNEGPERF :SUBJMARKERVSUFF]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:conjClass],
@@ -1977,9 +1973,8 @@
 :muterms [
     {:label "elmolo-PAffix"
     :note "Heine1980d p. 187"
-    :pdgmType :Finite
-    :common {:morpheme :PROAFFIX,
-             :pos :Verb,
+    :pdgmType :PersAffix
+    :common {:pos :Verb,
              :verbMorphClass :PersAffix}
     :terms [[:position :number :person :gender :token],
             [:PersAsp :Singular :Person1 :Common "aŋ-"],
@@ -2009,9 +2004,8 @@
     }
     {:label "elmolo-PIndep"
     :note "Heine1980d p. 187. Feature synEnv:A = pre-verbal;B = otherwise"
-    :pdgmType :NA
-    :common {:morpheme :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:synEnv :number :person :token],
             [:A :Singular :Person1 "yesé"],
@@ -2029,9 +2023,8 @@
     }
     {:label "elmolo-PObjAff"
     :note "Heine1980d p. 187"
-    :pdgmType :NA
-    :common {:morpheme :PROOBJAFF,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :ObjAff}
     :terms [[:number :person :token],
             [:Singular :Person1 "Common"],
@@ -2043,9 +2036,8 @@
     }
     {:label "elmolo-PPoss"
     :note "Heine1980d p. 183"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSS,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Possessive}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-au"],
@@ -2059,9 +2051,8 @@
     }
     {:label "elmolo-VDervStems"
     :note "Heine1980d pp. 196 - 198"
-    :pdgmType :Finite
-    :common {:morpheme :DERVSTEMS,
-             :pos :Verb,
+    :pdgmType :DERVSGTEMS
+    :common {:pos :Verb,
              :verbMorphClass :DervStem}
     :terms [[:derivedCategory :polarity :tam :number :person :token :token-note-affix],
             [:Ablative :Invariable :Invariable :Invariable :Invariable "ka-" "ka-"],
@@ -2104,9 +2095,8 @@
     }
     {:label "elmolo-VPrefAffImperfSubjMarker"
     :note "Heine1980d p. 189-191"
-    :pdgmType :Finite
+    :pdgmType :SUBJMARKERAFFIMPERF
     :common {:conjClass :Prefix,
-             :morpheme :SUBJMARKERAFFIMPERF,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperfect,
@@ -2122,10 +2112,9 @@
     }
     {:label "elmolo-VPrefAffImprtvSubjMarker"
     :note "Heine1980d p. 189-191"
-    :pdgmType :Finite
+    :pdgmType :SUBJMARKERADDIMPRTV
     :common {:conjClass :Prefix,
              :gender :Common,
-             :morpheme :SUBJMARKERADDIMPRTV,
              :person :Person2,
              :polarity :Affirmative,
              :pos :Verb,
@@ -2137,9 +2126,8 @@
     }
     {:label "elmolo-VPrefAffPerfSubjMarker"
     :note "Heine1980d p. 189-191"
-    :pdgmType :Finite
+    :pdgmType :SUBJMARKERAFFPERF
     :common {:conjClass :Prefix,
-             :morpheme :SUBJMARKERAFFPERF,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Perfect,
@@ -2155,9 +2143,8 @@
     }
     {:label "elmolo-VPrefAffSubjSubjMarker"
     :note "Heine1980d p. 189-191"
-    :pdgmType :Finite
+    :pdgmType :SUBJMARKERAFFSUBJUNCTIVE
     :common {:conjClass :Prefix,
-             :morpheme :SUBJMARKERAFFSUBJUNCTIVE,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Subjunctive,
@@ -2173,10 +2160,9 @@
     }
     {:label "elmolo-VPrefNegImperfSubjMarker"
     :note "Heine1980d p. 189-191"
-    :pdgmType :Finite
+    :pdgmType :SUBJMARKERNEGIMPERF
     :common {:conjClass :Prefix,
              :gender :Common,
-             :morpheme :SUBJMARKERNEGIMPERF,
              :polarity :Negative,
              :pos :Verb,
              :tam :Imperfect,
@@ -2191,10 +2177,9 @@
     }
     {:label "elmolo-VPrefNegImprtvSubjMarker"
     :note "Heine1980d p. 189-191"
-    :pdgmType :Finite
+    :pdgmType :SUBJMARKERNEGIMPRTV
     :common {:conjClass :Prefix,
              :gender :Common,
-             :morpheme :SUBJMARKERNEGIMPRTV,
              :person :Person2,
              :polarity :Negative,
              :pos :Verb,
@@ -2206,10 +2191,9 @@
     }
     {:label "elmolo-VPrefNegPerfSubjMarker"
     :note "Heine1980d p. 189-191"
-    :pdgmType :Finite
+    :pdgmType :SUBJMARKERNEGPERF
     :common {:conjClass :Prefix,
              :gender :Common,
-             :morpheme :SUBJMARKERNEGPERF,
              :polarity :Negative,
              :pos :Verb,
              :tam :Perfect,
@@ -2224,9 +2208,8 @@
     }
     {:label "elmolo-VSuffSubjMarker"
     :note "Heine1980d pp. 191-196. Note on general suffix verb pattern:Only a few verbs dispose of the full set of inflectional possibilities. Most verbs have merged various endings in one or theother way. (p. 192) Final-i/e verb pattern:“slightly divergent endings;final vowel changes to I in the subjunctive and the negative perfect,and to o in the negative imperfect”"
-    :pdgmType :Finite
+    :pdgmType :SUBJMARKERVSUFF
     :common {:conjClass :Suffix,
-             :morpheme :SUBJMARKERVSUFF,
              :pos :Verb,
              :verbMorphClass :SubjMarker}
     :terms [[:patternClass :polarity :tam :number :person :gender :token],
