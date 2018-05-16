@@ -58,7 +58,7 @@
  :termclusters [
                 {:label "elmolo-VPrefAffImperf-aac"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aac,
@@ -75,7 +75,7 @@
                  }
                 {:label "elmolo-VPrefAffImperf-aam"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aam,
@@ -92,7 +92,7 @@
                  }
                 {:label "elmolo-VPrefAffImperf-al"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :al,
                           :polarity :Affirmative,
@@ -109,7 +109,7 @@
                  }
                 {:label "elmolo-VPrefAffImperf-aw"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aw,
                           :polarity :Affirmative,
@@ -126,7 +126,7 @@
                  }
                 {:label "elmolo-VPrefAffImperf-ekin"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ekin,
                           :polarity :Affirmative,
@@ -143,7 +143,7 @@
                  }
                 {:label "elmolo-VPrefAffImperf-ekis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ekis,
                           :polarity :Affirmative,
@@ -160,7 +160,7 @@
                  }
                 {:label "elmolo-VPrefAffImperf-iit"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iit,
                           :polarity :Affirmative,
@@ -177,7 +177,7 @@
                  }
                 {:label "elmolo-VPrefAffImprtv-aac"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aac,
@@ -191,7 +191,7 @@
                  }
                 {:label "elmolo-VPrefAffImprtv-aam"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aam,
@@ -205,7 +205,7 @@
                  }
                 {:label "elmolo-VPrefAffImprtv-al"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :al,
@@ -219,7 +219,7 @@
                  }
                 {:label "elmolo-VPrefAffImprtv-aw"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aw,
@@ -233,7 +233,7 @@
                  }
                 {:label "elmolo-VPrefAffImprtv-ekin"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :ekin,
@@ -247,7 +247,7 @@
                  }
                 {:label "elmolo-VPrefAffImprtv-ekis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :ekis,
@@ -261,7 +261,7 @@
                  }
                 {:label "elmolo-VPrefAffImprtv-iit"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :iit,
@@ -275,7 +275,7 @@
                  }
                 {:label "elmolo-VPrefAffPerf-aac"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aac,
                           :polarity :Affirmative,
@@ -292,7 +292,7 @@
                  }
                 {:label "elmolo-VPrefAffPerf-aam"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aam,
                           :polarity :Affirmative,
@@ -309,7 +309,7 @@
                  }
                 {:label "elmolo-VPrefAffPerf-al"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :al,
                           :polarity :Affirmative,
@@ -326,7 +326,7 @@
                  }
                 {:label "elmolo-VPrefAffPerf-aw"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aw,
                           :polarity :Affirmative,
@@ -343,7 +343,7 @@
                  }
                 {:label "elmolo-VPrefAffPerf-ekin"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ekin,
                           :polarity :Affirmative,
@@ -360,7 +360,7 @@
                  }
                 {:label "elmolo-VPrefAffPerf-ekis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ekis,
                           :polarity :Affirmative,
@@ -377,7 +377,7 @@
                  }
                 {:label "elmolo-VPrefAffPerf-iit"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iit,
                           :polarity :Affirmative,
@@ -394,7 +394,7 @@
                  }
                 {:label "elmolo-VPrefAffSubj-aac"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aac,
@@ -411,7 +411,7 @@
                  }
                 {:label "elmolo-VPrefAffSubj-iit"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iit,
                           :polarity :Affirmative,
@@ -428,7 +428,7 @@
                  }
                 {:label "elmolo-VPrefNegImperf-aac"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aac,
@@ -445,7 +445,7 @@
                  }
                 {:label "elmolo-VPrefNegImperf-aam"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aam,
@@ -462,7 +462,7 @@
                  }
                 {:label "elmolo-VPrefNegImperf-al"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :al,
@@ -479,7 +479,7 @@
                  }
                 {:label "elmolo-VPrefNegImperf-aw"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aw,
@@ -496,7 +496,7 @@
                  }
                 {:label "elmolo-VPrefNegImperf-ekin"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :ekin,
@@ -513,7 +513,7 @@
                  }
                 {:label "elmolo-VPrefNegImperf-ekis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ekis,
                           :polarity :Negative,
@@ -530,7 +530,7 @@
                  }
                 {:label "elmolo-VPrefNegImperf-iit"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :iit,
@@ -547,7 +547,7 @@
                  }
                 {:label "elmolo-VPrefNegImprtv-aac"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aac,
@@ -561,7 +561,7 @@
                  }
                 {:label "elmolo-VPrefNegImprtv-al"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :al,
@@ -575,7 +575,7 @@
                  }
                 {:label "elmolo-VPrefNegImprtv-aw"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aw,
@@ -589,7 +589,7 @@
                  }
                 {:label "elmolo-VPrefNegImprtv-ekin"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :ekin,
@@ -603,7 +603,7 @@
                  }
                 {:label "elmolo-VPrefNegImprtv-ekis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :ekis,
@@ -617,7 +617,7 @@
                  }
                 {:label "elmolo-VPrefNegImprtv-iit"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :iit,
@@ -631,7 +631,7 @@
                  }
                 {:label "elmolo-VPrefNegPerf-aac"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aac,
@@ -648,7 +648,7 @@
                  }
                 {:label "elmolo-VPrefNegPerf-aam"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aam,
@@ -665,7 +665,7 @@
                  }
                 {:label "elmolo-VPrefNegPerf-aw"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aw,
@@ -682,7 +682,7 @@
                  }
                 {:label "elmolo-VPrefNegPerf-ekin"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :ekin,
@@ -699,7 +699,7 @@
                  }
                 {:label "elmolo-VPrefNegPerf-ekis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :ekis,
@@ -716,7 +716,7 @@
                  }
                 {:label "elmolo-VStativeAffImperf-apo"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :apo,
@@ -731,7 +731,7 @@
                  }
                 {:label "elmolo-VStativeAffImperf-deer"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :deer,
@@ -748,7 +748,7 @@
                  }
                 {:label "elmolo-VStativeAffImperf-gaapa"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :gaapa,
@@ -765,7 +765,7 @@
                  }
                 {:label "elmolo-VStativeAffImperf-geli"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :geli,
@@ -782,7 +782,7 @@
                  }
                 {:label "elmolo-VStativeAffImperf-haul"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :haul,
@@ -799,7 +799,7 @@
                  }
                 {:label "elmolo-VStativeAffImperf-ogi"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :ogi,
@@ -816,7 +816,7 @@
                  }
                 {:label "elmolo-VStativeAffInceptive-deer"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :lexeme :deer,
                           :polarity :Affirmative,
@@ -833,7 +833,7 @@
                  }
                 {:label "elmolo-VStativeAffPerf-deer"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :deer,
@@ -850,7 +850,7 @@
                  }
                 {:label "elmolo-VStativeAffPerf-gaapa"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :gaapa,
@@ -866,7 +866,7 @@
                  }
                 {:label "elmolo-VStativeAffPerf-geli"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :geli,
@@ -883,7 +883,7 @@
                  }
                 {:label "elmolo-VStativeAffPerf-ogi"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :ogi,
@@ -900,7 +900,7 @@
                  }
                 {:label "elmolo-VStativeNegImperf-apo"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :apo,
@@ -915,7 +915,7 @@
                  }
                 {:label "elmolo-VStativeNegImperf-deer"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :deer,
@@ -932,7 +932,7 @@
                  }
                 {:label "elmolo-VStativeNegImperf-haul"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :haul,
@@ -949,7 +949,7 @@
                  }
                 {:label "elmolo-VStativeNegPerf-deer"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :deer,
@@ -965,7 +965,7 @@
                  }
                 {:label "elmolo-VStativeNegPerf-wany"
                  :note "Heine1980d pp. 198-200. Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :wany,
@@ -980,7 +980,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-ap"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :ap,
                           :polarity :Affirmative,
@@ -998,7 +998,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-arg"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :arg,
                           :polarity :Affirmative,
@@ -1015,7 +1015,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-argis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :argis,
@@ -1032,7 +1032,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-dekay"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :dekay,
@@ -1049,7 +1049,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-dewe"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :dewe,
@@ -1066,7 +1066,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-dis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :dis,
@@ -1083,7 +1083,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-esde"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :esde,
@@ -1100,7 +1100,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-geet"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :geet,
@@ -1117,7 +1117,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-horr"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :horr,
                           :polarity :Affirmative,
@@ -1135,7 +1135,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-iif"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :iif,
                           :polarity :Affirmative,
@@ -1153,7 +1153,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-keis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :keis,
@@ -1170,7 +1170,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-kuredai"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :kuredai,
                           :polarity :Affirmative,
@@ -1187,7 +1187,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-nuukis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :nuukis,
@@ -1204,7 +1204,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-tei"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tei,
                           :polarity :Affirmative,
@@ -1221,7 +1221,7 @@
                  }
                 {:label "elmolo-VSuffAffImperf-yurg"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :yurg,
@@ -1238,7 +1238,7 @@
                  }
                 {:label "elmolo-VSuffAffImprtv-arg"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :arg,
@@ -1252,7 +1252,7 @@
                  }
                 {:label "elmolo-VSuffAffImprtv-argis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :argis,
@@ -1266,7 +1266,7 @@
                  }
                 {:label "elmolo-VSuffAffImprtv-geet"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :geet,
@@ -1280,7 +1280,7 @@
                  }
                 {:label "elmolo-VSuffAffImprtv-keis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :keis,
@@ -1294,7 +1294,7 @@
                  }
                 {:label "elmolo-VSuffAffImprtv-nuukis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :nuukis,
@@ -1308,7 +1308,7 @@
                  }
                 {:label "elmolo-VSuffAffImprtv-yurg"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :yurg,
@@ -1322,7 +1322,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-arg"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :arg,
@@ -1339,7 +1339,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-argis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :argis,
@@ -1356,7 +1356,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-dekay"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :dekay,
@@ -1373,7 +1373,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-dewe"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :dewe,
@@ -1390,7 +1390,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-dis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :dis,
@@ -1407,7 +1407,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-esde"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :esde,
@@ -1424,7 +1424,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-geet"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :geet,
@@ -1441,7 +1441,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-horr"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :horr,
                           :polarity :Affirmative,
@@ -1459,7 +1459,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-iif"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :iif,
                           :polarity :Affirmative,
@@ -1477,7 +1477,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-keis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :keis,
                           :polarity :Affirmative,
@@ -1494,7 +1494,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-nuukis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :nuukis,
@@ -1511,7 +1511,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-tei"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :tei,
                           :polarity :Affirmative,
@@ -1528,7 +1528,7 @@
                  }
                 {:label "elmolo-VSuffAffPerf-yurg"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :yurg,
@@ -1545,7 +1545,7 @@
                  }
                 {:label "elmolo-VSuffAffSubj-dewe"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :dewe,
@@ -1559,7 +1559,7 @@
                  }
                 {:label "elmolo-VSuffAffSubj-horr"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :horr,
@@ -1573,7 +1573,7 @@
                  }
                 {:label "elmolo-VSuffAffSubj-nuukis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :nuukis,
@@ -1587,7 +1587,7 @@
                  }
                 {:label "elmolo-VSuffAffSubj-tei"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :tei,
@@ -1601,7 +1601,7 @@
                  }
                 {:label "elmolo-VSuffNegImperf-ap"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :ap,
                           :polarity :Negative,
@@ -1619,7 +1619,7 @@
                  }
                 {:label "elmolo-VSuffNegImperf-arg"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :arg,
@@ -1636,7 +1636,7 @@
                  }
                 {:label "elmolo-VSuffNegImperf-argis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :argis,
@@ -1653,7 +1653,7 @@
                  }
                 {:label "elmolo-VSuffNegImperf-dewe"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :dewe,
                           :polarity :Negative,
@@ -1670,7 +1670,7 @@
                  }
                 {:label "elmolo-VSuffNegImperf-esde"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :esde,
@@ -1687,7 +1687,7 @@
                  }
                 {:label "elmolo-VSuffNegImperf-horr"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :horr,
@@ -1701,7 +1701,7 @@
                  }
                 {:label "elmolo-VSuffNegImperf-kuredai"
                  :note "Heine1980d p. 189-191/ neg imperf kure-dai = neg perf kure-dai"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :kuredai,
@@ -1719,7 +1719,7 @@
                  }
                 {:label "elmolo-VSuffNegImperf-nuukis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :nuukis,
@@ -1736,7 +1736,7 @@
                  }
                 {:label "elmolo-VSuffNegImperf-tei"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :tei,
@@ -1753,7 +1753,7 @@
                  }
                 {:label "elmolo-VSuffNegImprtv-ap"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :ap,
@@ -1767,7 +1767,7 @@
                  }
                 {:label "elmolo-VSuffNegImprtv-argis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :argis,
@@ -1781,7 +1781,7 @@
                  }
                 {:label "elmolo-VSuffNegImprtv-keis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :keis,
@@ -1795,7 +1795,7 @@
                  }
                 {:label "elmolo-VSuffNegImprtv-nuukis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :nuukis,
@@ -1809,7 +1809,7 @@
                  }
                 {:label "elmolo-VSuffNegImprtv-yurg"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :yurg,
@@ -1823,7 +1823,7 @@
                  }
                 {:label "elmolo-VSuffNegPerf-ap"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :ap,
                           :polarity :Negative,
@@ -1841,7 +1841,7 @@
                  }
                 {:label "elmolo-VSuffNegPerf-arg"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :arg,
@@ -1858,7 +1858,7 @@
                  }
                 {:label "elmolo-VSuffNegPerf-dewe"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :lexeme :dewe,
                           :polarity :Negative,
@@ -1875,7 +1875,7 @@
                  }
                 {:label "elmolo-VSuffNegPerf-esde"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :esde,
@@ -1892,7 +1892,7 @@
                  }
                 {:label "elmolo-VSuffNegPerf-horr"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :horr,
@@ -1906,7 +1906,7 @@
                  }
                 {:label "elmolo-VSuffNegPerf-kuredai"
                  :note "Heine1980d p. 189-191/ neg imperf kure-dai = neg perf kure-dai"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :kuredai,
@@ -1924,7 +1924,7 @@
                  }
                 {:label "elmolo-VSuffNegPerf-nuukis"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :nuukis,
@@ -1941,7 +1941,7 @@
                  }
                 {:label "elmolo-VSuffNegPerf-tei"
                  :note "Heine1980d p. 189-191"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :gender :Common,
                           :lexeme :tei,
