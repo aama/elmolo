@@ -5,20 +5,21 @@
  :datasource "Heine1980d"
  :geodemoURL "http://www.ethnologue.com/language/elo"
  :geodemoTXT "The Western Omo-Tana language, Elmolo was spoken in Kenya on the southeastern shore of Lake Turkana; it is not certain whether there are still any speakers ."
-:schemata {:conjClass [:Prefix :Stative :Suffix],
-           :derivedCategory [:Ablative :Benefactive :Frequentative :Instrumental :Intransitive :Reflexive :Ventive],
-           :gender [:Common :Fem :Masc],
-           :number [:Invariable :Plural :Singular :_NA],
-           :patternClass [:Final-i-e :_NA],
-           :person [:Invariable :Person1 :Person2 :Person3 :_NA],
-           :polarity [:Affirmative :Invariable :Negative :_NA],
-           :pos [:Pronoun :Verb],
-           :position [:PersAsp :PrefV :SuffV],
-           :proClass [:Independent :ObjAff :Possessive],
-           :synEnv [:A :B],
-           :tam [:Imperative :Imperfect :Inceptive :Invariable :Perfect :Subjunctive :_NA],
-           :vmorphClass [:Finite :DERVSTEMS :PersAffix :SUBJMARKERADDIMPRTV :SUBJMARKERAFFIMPERF :SUBJMARKERAFFPERF :SUBJMARKERAFFSUBJUNCTIVE :SUBJMARKERNEGIMPERF :SUBJMARKERNEGIMPRTV :SUBJMARKERNEGPERF :SUBJMARKERVSUFF]
-           }
+:schemata {:lexeme [:aac  :aam :al :ap :apo :arg :argis :aw :deer :dekay :dewe :dis :ekin :ekis :esde :gaapa :geet :geli :haul :horr :iif :iit :keis :kuredai :nuukis :ogi :tei :wany :yurg],
+ :conjClass [:Prefix :Stative :Suffix],
+ :derivedCategory [:Ablative :Benefactive :Frequentative :Instrumental :Intransitive :Reflexive :Ventive],
+ :gender [:Common :Fem :Masc],
+ :number [:Invariable :Plural :Singular :_NA],
+ :patternClass [:Final-i-e :_NA],
+ :person [:Invariable :Person1 :Person2 :Person3 :_NA],
+ :polarity [:Affirmative :Invariable :Negative :_NA],
+ :pos [:Pronoun :Verb],
+ :position [:PersAsp :PrefV :SuffV],
+ :proClass [:Independent :ObjAff :Possessive],
+ :synEnv [:A :B],
+ :tam [:Imperative :Imperfect :Inceptive :Invariable :Perfect :Subjunctive :_NA],
+ :vmorphClass [:DERVSTEMS :Finite :PersAffix :SUBJMARKERADDIMPRTV :SUBJMARKERAFFIMPERF :SUBJMARKERAFFPERF :SUBJMARKERAFFSUBJUNCTIVE :SUBJMARKERNEGIMPERF :SUBJMARKERNEGIMPRTV :SUBJMARKERNEGPERF :SUBJMARKERVSUFF]
+ }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:conjClass],
@@ -1988,7 +1989,7 @@
                  }
                 {:label "elmolo-PIndep"
                  :note "Heine1980d p. 187. Feature synEnv:A = pre-verbal;B = otherwise"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:synEnv :number :person :token],
                          [:A :Singular :Person1 "yesé"],
@@ -2006,7 +2007,7 @@
                  }
                 {:label "elmolo-PObjAff"
                  :note "Heine1980d p. 187"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :ObjAff}
                  :terms [[:number :person :token],
                          [:Singular :Person1 "Common"],
@@ -2018,7 +2019,7 @@
                  }
                 {:label "elmolo-PPoss"
                  :note "Heine1980d p. 183"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Possessive}
                  :terms [[:number :person :gender :token],
                          [:Singular :Person1 :Common "-au"],
