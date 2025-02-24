@@ -1,12 +1,29 @@
 {
   "lang": "elmolo",
-  "subfamily": "Lowland East Cushitic Omo-Tana",
+  "subfamily": "cushitic east lowland omo-tana",
   "lgpref": "elm",
-  "datasource": "Heine, Heinrich, 1980, 'The Non-Bantu Languages of Kenya. Language and Dialect Atlas of Kenya', vol. 2. Berlin: Dietrich Reimer Verlag. pp. 173-219 [H80].",
+  "datasource": "Heine, Heinrich, 1980, 'The Non-Bantu Languages of Kenya. Language and Dialect Atlas of Kenya', vol. 2. Berlin: Dietrich Reimer Verlag. pp. 173-219 [BH80].",
   "datasourceNotes": "",
+  "transcription": { 
+    "Consonants": {
+      "general": "cf. transcription table",
+      "note": [
+        "'' = ''",
+        "'' = '' "
+        ]},
+    "Vowels": {
+      "inventory": "i e a o u; ii ee aa oo uu"},
+    "Prosody": {
+      "Type": "pitch",
+      "Tone": "'v́' High; 'v' Low ; 'v̂' Falling (short), 'v́v' Falling (long)"}}, 
   "geodemoURL": "http://www.ethnologue.com/language/elo",
   "geodemoTXT": "The Western Omo-Tana language, Elmolo was spoken in Kenya on the southeastern shore of Lake Turkana; it is not certain whether there are still any speakers .",
   "schemata": {
+  "AffixClass": [
+    "Person-AspectPrefix",
+    "Prefix",
+    "SuffixV"
+  ],
   "conjClass": [
     "Prefix",
     "Stative",
@@ -16,10 +33,18 @@
     "Ablative",
     "Benefactive",
     "Frequentative",
+    "Instransitive",
     "Instrumental",
-    "Intransitive",
     "Reflexive",
     "Ventive"
+  ],
+  "derivedStem": [
+    "Causative"
+  ],
+  "dervedCategory": [
+    "Benefactive",
+    "General",
+    "Intransitive"
   ],
   "gender": [
     "Common",
@@ -50,46 +75,41 @@
     "iif",
     "iit",
     "keis",
-    "kuredai",
-    "nuukis",
+    "kure-dai",
+    "nuuk-is",
     "ogi",
     "tei",
     "wany",
     "yurg"
   ],
   "morphClass": [
+    "BoundSubjectPro",
     "DervStemsm",
-    "PersonAffixPrefixes",
     "Subject"
   ],
   "number": [
     "Common",
-    "Invariable",
+    "Intransitive",
     "Plural",
     "Singular"
   ],
   "patternClass": [
+    "",
     "Final-i-e"
   ],
   "person": [
-    "Invariable",
+    "Affirmative",
     "Person1",
     "Person2",
     "Person3"
   ],
   "polarity": [
     "Affirmative",
-    "Invariable",
     "Negative"
   ],
   "pos": [
     "Pronoun",
     "Verb"
-  ],
-  "position": [
-    "PersAsp",
-    "PrefV",
-    "SuffV"
   ],
   "proClass": [
     "Independent",
@@ -105,7 +125,6 @@
     "Imperative",
     "Imperfect",
     "Inceptive",
-    "Invariable",
     "Perfect",
     "Subjunctive"
   ]
@@ -200,7 +219,7 @@
   "eriv": {
     "pos": "z",
     "lemma": "[y]",
-    "gloss": "lift up (phonological changes in stem+suff. eriv",
+    "gloss": "lift up (phonological changes in stem+suff. eriv)",
     "conjClass": "Suffix"
   },
   "esde": {
@@ -262,10 +281,10 @@
   },
   "keis": {
     "pos": "z",
-    "lemma": "[y]",
-    "gloss": "[x]"
+    "lemma": "keis",
+    "gloss": "lift up"
   },
-  "kuredai": {
+  "kure-dai": {
     "pos": "Verb",
     "lemma": "kúre-dai",
     "gloss": "sing (one of verbs with no aspect distinction; serves also for perfect)",
@@ -277,7 +296,7 @@
     "gloss": "have (partly employs isolated pronouns of set B)",
     "conjClass": "Suffix"
   },
-  "nuukis": {
+  "nuuk-is": {
     "pos": "Verb",
     "lemma": "nuuk-is",
     "gloss": "suckle (from nuuk ‘suck’. phonological changes in stem+suff",
@@ -312,7 +331,7 @@
   "termclusters": [
   {
     "label": "elm-PronounIndependent",
-    "note": "H80p.187 :: Feature synEnv:A = pre-verbal;B = otherwise",
+    "note": "BH80p187 :: Feature synEnv:A = pre-verbal;B = otherwise",
     "common": {
       "pos": "Pronoun",
       "proClass": "Independent"
@@ -335,7 +354,7 @@
   },
   {
     "label": "elm-PronounObjAff",
-    "note": "H80p.187",
+    "note": "BH80p187",
     "common": {
       "pos": "Pronoun",
       "proClass": "ObjAff"
@@ -352,7 +371,7 @@
   },
   {
     "label": "elm-PronounPersonAspectPrefixes",
-    "note": "H80p.187",
+    "note": "BH80p187",
     "common": {
       "pos": "Pronoun",
       "proClass": "PersonAspectPrefixes"
@@ -371,7 +390,7 @@
   },
   {
     "label": "elm-PronounPossessive",
-    "note": "H80p.183",
+    "note": "BH80p183",
     "common": {
       "pos": "Pronoun",
       "proClass": "Possessive"
@@ -390,7 +409,7 @@
   },
   {
     "label": "elm-VerbPrefix-aac-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aac",
@@ -406,7 +425,7 @@
   },
   {
     "label": "elm-VerbPrefix-aac-ImperativeNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aac",
@@ -422,7 +441,7 @@
   },
   {
     "label": "elm-VerbPrefix-aac-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aac",
@@ -442,7 +461,7 @@
   },
   {
     "label": "elm-VerbPrefix-aac-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aac",
@@ -462,7 +481,7 @@
   },
   {
     "label": "elm-VerbPrefix-aac-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aac",
@@ -483,7 +502,7 @@
   },
   {
     "label": "elm-VerbPrefix-aac-PerfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aac",
@@ -503,7 +522,7 @@
   },
   {
     "label": "elm-VerbPrefix-aac-SubjunctiveAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aac",
@@ -523,7 +542,7 @@
   },
   {
     "label": "elm-VerbPrefix-aam-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aam",
@@ -539,7 +558,7 @@
   },
   {
     "label": "elm-VerbPrefix-aam-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aam",
@@ -559,7 +578,7 @@
   },
   {
     "label": "elm-VerbPrefix-aam-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aam",
@@ -579,7 +598,7 @@
   },
   {
     "label": "elm-VerbPrefix-aam-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aam",
@@ -600,7 +619,7 @@
   },
   {
     "label": "elm-VerbPrefix-aam-PerfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aam",
@@ -620,7 +639,7 @@
   },
   {
     "label": "elm-VerbPrefix-al-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "al",
@@ -636,7 +655,7 @@
   },
   {
     "label": "elm-VerbPrefix-al-ImperativeNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "al",
@@ -652,7 +671,7 @@
   },
   {
     "label": "elm-VerbPrefix-al-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p189-191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "al",
@@ -673,7 +692,7 @@
   },
   {
     "label": "elm-VerbPrefix-al-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "al",
@@ -693,7 +712,7 @@
   },
   {
     "label": "elm-VerbPrefix-al-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "al",
@@ -714,7 +733,7 @@
   },
   {
     "label": "elm-VerbPrefix-aw-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aw",
@@ -730,7 +749,7 @@
   },
   {
     "label": "elm-VerbPrefix-aw-ImperativeNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aw",
@@ -746,7 +765,7 @@
   },
   {
     "label": "elm-VerbPrefix-aw-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aw",
@@ -767,7 +786,7 @@
   },
   {
     "label": "elm-VerbPrefix-aw-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aw",
@@ -787,7 +806,7 @@
   },
   {
     "label": "elm-VerbPrefix-aw-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aw",
@@ -808,7 +827,7 @@
   },
   {
     "label": "elm-VerbPrefix-aw-PerfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "aw",
@@ -828,7 +847,7 @@
   },
   {
     "label": "elm-VerbPrefix-ekin-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "ekin",
@@ -844,7 +863,7 @@
   },
   {
     "label": "elm-VerbPrefix-ekin-ImperativeNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "ekin",
@@ -860,7 +879,7 @@
   },
   {
     "label": "elm-VerbPrefix-ekin-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "ekin",
@@ -881,7 +900,7 @@
   },
   {
     "label": "elm-VerbPrefix-ekin-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "ekin",
@@ -901,7 +920,7 @@
   },
   {
     "label": "elm-VerbPrefix-ekin-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "ekin",
@@ -922,7 +941,7 @@
   },
   {
     "label": "elm-VerbPrefix-ekin-PerfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "ekin",
@@ -942,7 +961,7 @@
   },
   {
     "label": "elm-VerbPrefix-ekis-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "ekis",
@@ -958,7 +977,7 @@
   },
   {
     "label": "elm-VerbPrefix-ekis-ImperativeNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "ekis",
@@ -974,7 +993,7 @@
   },
   {
     "label": "elm-VerbPrefix-ekis-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "ekis",
@@ -995,7 +1014,7 @@
   },
   {
     "label": "elm-VerbPrefix-ekis-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "ekis",
@@ -1016,7 +1035,7 @@
   },
   {
     "label": "elm-VerbPrefix-ekis-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "ekis",
@@ -1037,7 +1056,7 @@
   },
   {
     "label": "elm-VerbPrefix-ekis-PerfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p191",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "ekis",
@@ -1057,7 +1076,7 @@
   },
   {
     "label": "elm-VerbPrefix-iit-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "iit",
@@ -1073,7 +1092,7 @@
   },
   {
     "label": "elm-VerbPrefix-iit-ImperativeNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "iit",
@@ -1089,7 +1108,7 @@
   },
   {
     "label": "elm-VerbPrefix-iit-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "iit",
@@ -1110,7 +1129,7 @@
   },
   {
     "label": "elm-VerbPrefix-iit-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "iit",
@@ -1130,7 +1149,7 @@
   },
   {
     "label": "elm-VerbPrefix-iit-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "iit",
@@ -1151,7 +1170,7 @@
   },
   {
     "label": "elm-VerbPrefix-iit-SubjunctiveAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "lexeme": "iit",
@@ -1172,7 +1191,7 @@
   },
   {
     "label": "elm-VerbStative-apo-ImperfectAffirmative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p199 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "apo",
@@ -1189,7 +1208,7 @@
   },
   {
     "label": "elm-VerbStative-apo-ImperfectNegative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p199 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "apo",
@@ -1206,7 +1225,7 @@
   },
   {
     "label": "elm-VerbStative-deer-ImperfectAffirmative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p199 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "deer",
@@ -1226,7 +1245,7 @@
   },
   {
     "label": "elm-VerbStative-deer-ImperfectNegative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p199 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "deer",
@@ -1246,7 +1265,7 @@
   },
   {
     "label": "elm-VerbStative-deer-InceptiveAffirmative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p199 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "deer",
@@ -1267,7 +1286,7 @@
   },
   {
     "label": "elm-VerbStative-deer-PerfectAffirmative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p199 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "deer",
@@ -1287,7 +1306,7 @@
   },
   {
     "label": "elm-VerbStative-deer-PerfectNegative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p199 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "deer",
@@ -1306,7 +1325,7 @@
   },
   {
     "label": "elm-VerbStative-gaapa-ImperfectAffirmative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p199 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "gaapa",
@@ -1326,7 +1345,7 @@
   },
   {
     "label": "elm-VerbStative-gaapa-PerfectAffirmative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p199 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "gaapa",
@@ -1344,7 +1363,7 @@
   },
   {
     "label": "elm-VerbStative-geli-ImperfectAffirmative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "geli",
@@ -1364,7 +1383,7 @@
   },
   {
     "label": "elm-VerbStative-geli-PerfectAffirmative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "geli",
@@ -1384,7 +1403,7 @@
   },
   {
     "label": "elm-VerbStative-haul-ImperfectAffirmative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "haul",
@@ -1404,7 +1423,7 @@
   },
   {
     "label": "elm-VerbStative-haul-ImperfectNegative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p199 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "haul",
@@ -1424,7 +1443,7 @@
   },
   {
     "label": "elm-VerbStative-ogi-ImperfectAffirmative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "ogi",
@@ -1444,7 +1463,7 @@
   },
   {
     "label": "elm-VerbStative-ogi-PerfectAffirmative",
-    "note": "H80pp.198-200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
+    "note": "H80p200 :: Mostly de-adjectival. Heine uses the term “aorist” for the morphological imperfect.",
     "common": {
       "conjClass": "Stative",
       "lexeme": "ogi",
@@ -1464,7 +1483,7 @@
   },
   {
     "label": "elm-VerbStative-wany-PerfectNegative",
-    "note": "H80p.199 :: Mostly de-adjectival. Heine uses the term 'aorist' for the morphological imperfect.[i]",
+    "note": "BH80p199 :: Mostly de-adjectival. Heine uses the term 'aorist' for the morphological imperfect.[i]",
     "common": {
       "conjClass": "Stative",
       "lexeme": "wany",
@@ -1481,7 +1500,7 @@
   },
   {
     "label": "elm-VerbSuffix-ap-ImperativeNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p189-191",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "ap",
@@ -1497,7 +1516,7 @@
   },
   {
     "label": "elm-VerbSuffix-ap-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "ap",
@@ -1519,7 +1538,7 @@
   },
   {
     "label": "elm-VerbSuffix-ap-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "ap",
@@ -1541,7 +1560,7 @@
   },
   {
     "label": "elm-VerbSuffix-ap-PerfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "ap",
@@ -1563,7 +1582,7 @@
   },
   {
     "label": "elm-VerbSuffix-arg-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p189-191",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "arg",
@@ -1579,7 +1598,7 @@
   },
   {
     "label": "elm-VerbSuffix-arg-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p189-191",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "arg",
@@ -1600,7 +1619,7 @@
   },
   {
     "label": "elm-VerbSuffix-arg-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p189-191",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "arg",
@@ -1620,7 +1639,7 @@
   },
   {
     "label": "elm-VerbSuffix-arg-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p189-191",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "arg",
@@ -1640,7 +1659,7 @@
   },
   {
     "label": "elm-VerbSuffix-arg-PerfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p189-191",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "arg",
@@ -1660,7 +1679,7 @@
   },
   {
     "label": "elm-VerbSuffix-argis-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p189-191",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "argis",
@@ -1676,7 +1695,7 @@
   },
   {
     "label": "elm-VerbSuffix-argis-ImperativeNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "argis",
@@ -1692,7 +1711,7 @@
   },
   {
     "label": "elm-VerbSuffix-argis-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "argis",
@@ -1712,7 +1731,7 @@
   },
   {
     "label": "elm-VerbSuffix-argis-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "argis",
@@ -1732,7 +1751,7 @@
   },
   {
     "label": "elm-VerbSuffix-argis-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "argis",
@@ -1752,7 +1771,7 @@
   },
   {
     "label": "elm-VerbSuffix-dekay-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p195",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "dekay",
@@ -1772,7 +1791,7 @@
   },
   {
     "label": "elm-VerbSuffix-dekay-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p195",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "dekay",
@@ -1792,7 +1811,7 @@
   },
   {
     "label": "elm-VerbSuffix-dewe-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p193",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "dewe",
@@ -1812,7 +1831,7 @@
   },
   {
     "label": "elm-VerbSuffix-dewe-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p193",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "dewe",
@@ -1833,7 +1852,7 @@
   },
   {
     "label": "elm-VerbSuffix-dewe-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p193",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "dewe",
@@ -1853,7 +1872,7 @@
   },
   {
     "label": "elm-VerbSuffix-dewe-PerfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p193",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "dewe",
@@ -1874,7 +1893,7 @@
   },
   {
     "label": "elm-VerbSuffix-dewe-SubjunctiveAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p193",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "dewe",
@@ -1890,7 +1909,7 @@
   },
   {
     "label": "elm-VerbSuffix-dis-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p193",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "dis",
@@ -1910,7 +1929,7 @@
   },
   {
     "label": "elm-VerbSuffix-dis-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p193",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "dis",
@@ -1930,7 +1949,7 @@
   },
   {
     "label": "elm-VerbSuffix-esde-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "esde",
@@ -1950,7 +1969,7 @@
   },
   {
     "label": "elm-VerbSuffix-esde-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "esde",
@@ -1970,7 +1989,7 @@
   },
   {
     "label": "elm-VerbSuffix-esde-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "esde",
@@ -1990,7 +2009,7 @@
   },
   {
     "label": "elm-VerbSuffix-esde-PerfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "esde",
@@ -2010,7 +2029,7 @@
   },
   {
     "label": "elm-VerbSuffix-geet-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "geet",
@@ -2026,7 +2045,7 @@
   },
   {
     "label": "elm-VerbSuffix-geet-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "geet",
@@ -2046,7 +2065,7 @@
   },
   {
     "label": "elm-VerbSuffix-geet-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "geet",
@@ -2066,7 +2085,7 @@
   },
   {
     "label": "elm-VerbSuffix-horr-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "horr",
@@ -2088,7 +2107,7 @@
   },
   {
     "label": "elm-VerbSuffix-horr-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "horr",
@@ -2103,7 +2122,7 @@
   },
   {
     "label": "elm-VerbSuffix-horr-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "horr",
@@ -2125,7 +2144,7 @@
   },
   {
     "label": "elm-VerbSuffix-horr-PerfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "horr",
@@ -2140,7 +2159,7 @@
   },
   {
     "label": "elm-VerbSuffix-horr-SubjunctiveAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "horr",
@@ -2155,7 +2174,7 @@
   },
   {
     "label": "elm-VerbSuffix-iif-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "iif",
@@ -2177,7 +2196,7 @@
   },
   {
     "label": "elm-VerbSuffix-iif-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p192",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "iif",
@@ -2199,7 +2218,7 @@
   },
   {
     "label": "elm-VerbSuffix-keis-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p196",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "keis",
@@ -2215,7 +2234,7 @@
   },
   {
     "label": "elm-VerbSuffix-keis-ImperativeNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p196",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "keis",
@@ -2231,7 +2250,7 @@
   },
   {
     "label": "elm-VerbSuffix-keis-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p196",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "keis",
@@ -2251,7 +2270,7 @@
   },
   {
     "label": "elm-VerbSuffix-keis-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p196",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "keis",
@@ -2271,11 +2290,11 @@
     ]
   },
   {
-    "label": "elm-VerbSuffix-kuredai-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "label": "elm-VerbSuffix-kure-dai-ImperfectAffirmative",
+    "note": "BH80p193 :: This verb, like a few others has no Perfect distinct from the Imperfect",
     "common": {
       "conjClass": "Suffix",
-      "lexeme": "kuredai",
+      "lexeme": "kure-dai",
       "polarity": "Affirmative",
       "pos": "Verb",
       "tam": "Imperfect"
@@ -2292,11 +2311,11 @@
     ]
   },
   {
-    "label": "elm-VerbSuffix-kuredai-ImperfectNegative",
-    "note": "H80p.189-191 :: neg imperf kure-dai = neg perf kure-dai",
+    "label": "elm-VerbSuffix-kure-dai-ImperfectNegative",
+    "note": "BH80p193 :: This verb, like a few others has no Perfect distinct from the Imperfect",
     "common": {
       "conjClass": "Suffix",
-      "lexeme": "kuredai",
+      "lexeme": "kure-dai",
       "polarity": "Negative",
       "pos": "Verb",
       "tam": "Imperfect"
@@ -2313,14 +2332,14 @@
     ]
   },
   {
-    "label": "elm-VerbSuffix-kuredai-PerfectNegative",
-    "note": "H80p.189-191 :: neg imperf kure-dai = neg perf kure-dai",
+    "label": "elm-VerbSuffix-kure-dai-ImperfectNegative",
+    "note": "BH80p193 :: This verb, like a few others has no Perfect distinct from the Imperfect",
     "common": {
       "conjClass": "Suffix",
-      "lexeme": "kuredai",
+      "lexeme": "kure-dai",
       "polarity": "Negative",
       "pos": "Verb",
-      "tam": "Perfect"
+      "tam": "Imperfect"
     },
     "terms": [
       ["number" ,"person" ,"token"],
@@ -2334,11 +2353,12 @@
     ]
   },
   {
-    "label": "elm-VerbSuffix-nuukis-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "label": "elm-VerbSuffix-nuuk-is-ImperativeAffirmative",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
-      "lexeme": "nuukis",
+      "lexeme": "nuuk-is",
+      "derivedStem": "Causative",
       "polarity": "Affirmative",
       "pos": "Verb",
       "tam": "Imperative"
@@ -2350,11 +2370,12 @@
     ]
   },
   {
-    "label": "elm-VerbSuffix-nuukis-ImperativeNegative",
-    "note": "H80p.189-191",
+    "label": "elm-VerbSuffix-nuuk-is-ImperativeNegative",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
-      "lexeme": "nuukis",
+      "lexeme": "nuuk-is",
+      "derivedStem": "Causative",
       "polarity": "Negative",
       "pos": "Verb",
       "tam": "Imperative"
@@ -2366,11 +2387,12 @@
     ]
   },
   {
-    "label": "elm-VerbSuffix-nuukis-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "label": "elm-VerbSuffix-nuuk-is-ImperfectAffirmative",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
-      "lexeme": "nuukis",
+      "lexeme": "nuuk-is",
+      "derivedStem": "Causative",
       "polarity": "Affirmative",
       "pos": "Verb",
       "tam": "Imperfect"
@@ -2386,11 +2408,12 @@
     ]
   },
   {
-    "label": "elm-VerbSuffix-nuukis-ImperfectNegative",
-    "note": "H80p.189-191",
+    "label": "elm-VerbSuffix-nuuk-is-ImperfectNegative",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
-      "lexeme": "nuukis",
+      "lexeme": "nuuk-is",
+      "derivedStem": "Causative",
       "polarity": "Negative",
       "pos": "Verb",
       "tam": "Imperfect"
@@ -2406,11 +2429,12 @@
     ]
   },
   {
-    "label": "elm-VerbSuffix-nuukis-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "label": "elm-VerbSuffix-nuuk-is-PerfectAffirmative",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
-      "lexeme": "nuukis",
+      "lexeme": "nuuk-is",
+      "derivedStem": "Causative",
       "polarity": "Affirmative",
       "pos": "Verb",
       "tam": "Perfect"
@@ -2426,11 +2450,12 @@
     ]
   },
   {
-    "label": "elm-VerbSuffix-nuukis-PerfectNegative",
-    "note": "H80p.189-191",
+    "label": "elm-VerbSuffix-nuuk-is-PerfectNegative",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
-      "lexeme": "nuukis",
+      "lexeme": "nuuk-is",
+      "derivedStem": "Causative",
       "polarity": "Negative",
       "pos": "Verb",
       "tam": "Perfect"
@@ -2446,12 +2471,13 @@
     ]
   },
   {
-    "label": "elm-VerbSuffix-nuukis-SubjunctiveAffirmative",
-    "note": "H80p.189-191",
+    "label": "elm-VerbSuffix-nuuk-is-SubjunctiveAffirmative",
+    "note": "BH80p194",
     "common": {
       "conjClass": "Suffix",
-      "lexeme": "nuukis",
+      "lexeme": "nuuk-is",
       "polarity": "Affirmative",
+      "derivedStem": "Causative",
       "pos": "Verb",
       "tam": "Subjunctive"
     },
@@ -2463,7 +2489,7 @@
   },
   {
     "label": "elm-VerbSuffix-tei-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p193 :: 'This verb differs from others in its class by having the imperfect suffix -a.'",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tei",
@@ -2484,7 +2510,7 @@
   },
   {
     "label": "elm-VerbSuffix-tei-ImperfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p193 :: 'This verb differs from others in its class by having the imperfect suffix -a.'",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tei",
@@ -2504,7 +2530,7 @@
   },
   {
     "label": "elm-VerbSuffix-tei-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p193 :: 'This verb differs from others in its class by having the imperfect suffix -a.'",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tei",
@@ -2525,7 +2551,7 @@
   },
   {
     "label": "elm-VerbSuffix-tei-PerfectNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p193 :: 'This verb differs from others in its class by having the imperfect suffix -a.'",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tei",
@@ -2545,7 +2571,7 @@
   },
   {
     "label": "elm-VerbSuffix-tei-SubjunctiveAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p193 :: 'This verb differs from others in its class by having the imperfect suffix -a.'",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "tei",
@@ -2560,7 +2586,7 @@
   },
   {
     "label": "elm-VerbSuffix-yurg-ImperativeAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p195 :: this verb requirres application of rules (13) & (17) - p. 179",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "yurg",
@@ -2576,7 +2602,7 @@
   },
   {
     "label": "elm-VerbSuffix-yurg-ImperativeNegative",
-    "note": "H80p.189-191",
+    "note": "BH80p195 :: this verb requirres application of rules (13) & (17) - p. 179",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "yurg",
@@ -2592,7 +2618,7 @@
   },
   {
     "label": "elm-VerbSuffix-yurg-ImperfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p195 :: this verb requirres application of rules (13) & (17) - p. 179",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "yurg",
@@ -2612,7 +2638,7 @@
   },
   {
     "label": "elm-VerbSuffix-yurg-PerfectAffirmative",
-    "note": "H80p.189-191",
+    "note": "BH80p195 :: this verb requirres application of rules (13) & (17) - p. 179",
     "common": {
       "conjClass": "Suffix",
       "lexeme": "yurg",
@@ -2631,91 +2657,187 @@
     ]
   },
   {
-    "label": "elm-Verbmorph-DervStemsm-",
-    "note": "H80pp.196-198",
+    "label": "elm-morphVerb-BoundSubjectPro",
+    "note": "BH80p187",
     "common": {
       "pos": "Verb",
+      "AffixClass": "Person-AspectPrefix",
+      "morphClass": "BoundSubjectPro"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"aŋ-"],
+      ["Singular" ,"Person2" ,"Common" ,"a-"],
+      ["Singular" ,"Person3" ,"Masc" ,"i-"],
+      ["Singular" ,"Person3" ,"Fem" ,"i-"],
+      ["Plural" ,"Person1" ,"Common" ,"ino-"],
+      ["Plural" ,"Person2" ,"Common" ,"iŋ-"],
+      ["Plural" ,"Person3" ,"Masc" ,"i-"],
+      ["Plural" ,"Person3" ,"Fem" ,"i-"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-BoundSubjectPro",
+    "note": "BH80p187",
+    "common": {
+      "pos": "Verb",
+      "AffixClass": "Prefix",
+      "morphClass": "BoundSubjectPro"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"Ø"],
+      ["Singular" ,"Person2" ,"Common" ,"t-"],
+      ["Singular" ,"Person3" ,"Masc" ,"y-"],
+      ["Singular" ,"Person3" ,"Fem" ,"t-"],
+      ["Plural" ,"Person1" ,"Common" ,"n-"],
+      ["Plural" ,"Person2" ,"Common" ,"t-"],
+      ["Plural" ,"Person3" ,"Masc" ,"y-"],
+      ["Plural" ,"Person3" ,"Fem" ,"t-"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-BoundSubjectPro",
+    "note": "BH80p187",
+    "common": {
+      "pos": "Verb",
+      "AffixClass": "SuffixV",
+      "morphClass": "BoundSubjectPro"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"Ø"],
+      ["Singular" ,"Person2" ,"Common" ,"-t"],
+      ["Singular" ,"Person3" ,"Masc" ,"Ø"],
+      ["Singular" ,"Person3" ,"Fem" ,"-t"],
+      ["Plural" ,"Person1" ,"Common" ,"-n"],
+      ["Plural" ,"Person2" ,"Common" ,"-t-(n)"],
+      ["Plural" ,"Person3" ,"Masc" ,"Ø"],
+      ["Plural" ,"Person3" ,"Fem" ,"-t"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-DervStemsm",
+    "note": "H80p196-198 :: for 'derivedCategory' Benefactive and Intransitive, see separate paradigms ",
+    "common": {
+      "pos": "Verb",
+      "dervedCategory": "General",
       "morphClass": "DervStemsm"
     },
     "terms": [
-      ["derivedCategory" ,"polarity" ,"tam" ,"number" ,"person" ,"token" ,"token-note-affix"],
-      ["Ablative" ,"Invariable" ,"Invariable" ,"Invariable" ,"Invariable" ,"ka-" ,"ka-"],
-      ["Benefactive" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person1" ,"é-ka-" ,"ka-"],
-      ["Benefactive" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person2" ,"éká-ka ~ éké-ka-" ,"ka-"],
-      ["Benefactive" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person3" ,"í-ká-" ,"ka-"],
-      ["Benefactive" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person1" ,"ín’ó-ka-" ,"ka-"],
-      ["Benefactive" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person2" ,"íŋ-ka-" ,"ka-"],
-      ["Benefactive" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person3" ,"î-ká-" ,"ka-"],
-      ["Benefactive" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person1" ,"en-‘é-ka-" ,"ka-"],
-      ["Benefactive" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person2" ,"en-‘éke-ka" ,"ka-"],
-      ["Benefactive" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person3" ,"iní-ká-" ,"ka-"],
-      ["Benefactive" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person1" ,"ín’ín’ó-ka-" ,"ka-"],
-      ["Benefactive" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person2" ,"in’íŋ-ka-" ,"ka-"],
-      ["Benefactive" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person3" ,"in’î-ká-" ,"ka-"],
-      ["Frequentative" ,"__" ,"__" ,"__" ,"__" ,"ar-arg" ,"{reduplication of initial two segs}"],
-      ["Frequentative" ,"__" ,"__" ,"__" ,"__" ,"tu-tum" ,"{reduplication of initial two segs}"],
-      ["Frequentative" ,"__" ,"__" ,"__" ,"__" ,"ka-kar-is" ,"{reduplication of initial two segs}"],
-      ["Instrumental" ,"Invariable" ,"Invariable" ,"Invariable" ,"Invariable" ,"ka-" ,"ka-"],
-      ["Intransitive" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person1" ,"en’é-e" ,"àn’á-"],
-      ["Intransitive" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person2" ,"en’é-ke" ,"àn’á-"],
-      ["Intransitive" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person3" ,"an’á-" ,"àn’á-"],
-      ["Intransitive" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person1" ,"an-‘íno-" ,"àn’á-"],
-      ["Intransitive" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person2" ,"in-‘íŋ-" ,"àn’á-"],
-      ["Intransitive" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person3" ,"an’á-" ,"àn’á-"],
-      ["Intransitive" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person1" ,"en-‘né-e" ,"àn-‘ánà-"],
-      ["Intransitive" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person2" ,"en-’éne-ke" ,"àn-‘ánà-"],
-      ["Intransitive" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person3" ,"an-’ána-" ,"àn-‘ánà-"],
-      ["Intransitive" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person1" ,"an-‘ín-íno-" ,"àn-‘ánà-"],
-      ["Intransitive" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person2" ,"in-‘ín-iŋ-" ,"àn-‘ánà-"],
-      ["Intransitive" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person3" ,"an-’ána-" ,"àn-‘ánà-"],
-      ["Intransitive" ,"Negative" ,"Imperfect" ,"Singular" ,"Person1" ,"né-é-má-" ,"àn’á-"],
-      ["Intransitive" ,"Negative" ,"Imperfect" ,"Singular" ,"Person2" ,"né-ké-má-" ,"àn’á-"],
-      ["Intransitive" ,"Negative" ,"Imperfect" ,"Singular" ,"Person3" ,"ná-má-" ,"àn’á-"],
-      ["Intransitive" ,"Negative" ,"Imperfect" ,"Plural" ,"Person1" ,"ná-má-" ,"àn’á-"],
-      ["Intransitive" ,"Negative" ,"Imperfect" ,"Plural" ,"Person2" ,"ná-má-" ,"àn’á-"],
-      ["Intransitive" ,"Negative" ,"Imperfect" ,"Plural" ,"Person3" ,"ná-má-" ,"àn’á-"],
-      ["Reflexive" ,"Invariable" ,"Invariable" ,"Invariable" ,"Invariable" ,"wal-" ,"wal-"],
-      ["Ventive" ,"Invariable" ,"Invariable" ,"Invariable" ,"Invariable" ,"ar-" ,"ar-"]
+      ["derivedCategory" ,"token" ,"token-note-affix"],
+      ["Benefactive" ,"" ,""],
+      ["Instransitive" ,"" ,""],
+      ["Reflexive" ,"wal-" ,"wal-"],
+      ["Ventive" ,"ar-" ,"ar-"],
+      ["Frequentative" ,"ar-arg; tu-tum; ka-kar-is" ,"{reduplication of initial two segs}"],
+      ["Instrumental" ,"ka-" ,"ka-"],
+      ["Ablative" ,"ka-" ,"ka-"]
     ]
   },
   {
-    "label": "elm-Verbmorph-PersonAffixPrefixes-",
-    "note": "H80p.187",
+    "label": "elm-morphVerb-DervStemsmImperfectAffirmative",
+    "note": "H80p197",
     "common": {
       "pos": "Verb",
-      "morphClass": "PersonAffixPrefixes"
+      "dervedCategory": "Benefactive",
+      "polarity": "Affirmative",
+      "tam": "Imperfect",
+      "morphClass": "DervStemsm"
     },
     "terms": [
-      ["position" ,"number" ,"person" ,"gender" ,"token"],
-      ["PersAsp" ,"Singular" ,"Person1" ,"Common" ,"aŋ-"],
-      ["PersAsp" ,"Singular" ,"Person2" ,"Common" ,"a-"],
-      ["PersAsp" ,"Singular" ,"Person3" ,"Masc" ,"i-"],
-      ["PersAsp" ,"Singular" ,"Person3" ,"Fem" ,"i-"],
-      ["PersAsp" ,"Plural" ,"Person1" ,"Common" ,"ino-"],
-      ["PersAsp" ,"Plural" ,"Person2" ,"Common" ,"iŋ-"],
-      ["PersAsp" ,"Plural" ,"Person3" ,"Masc" ,"i-"],
-      ["PersAsp" ,"Plural" ,"Person3" ,"Fem" ,"i-"],
-      ["PrefV" ,"Singular" ,"Person1" ,"Common" ,"Common"],
-      ["PrefV" ,"Singular" ,"Person2" ,"Common" ,"t-"],
-      ["PrefV" ,"Singular" ,"Person3" ,"Masc" ,"y-"],
-      ["PrefV" ,"Singular" ,"Person3" ,"Fem" ,"t-"],
-      ["PrefV" ,"Plural" ,"Person1" ,"Common" ,"n-"],
-      ["PrefV" ,"Plural" ,"Person2" ,"Common" ,"t-"],
-      ["PrefV" ,"Plural" ,"Person3" ,"Masc" ,"y-"],
-      ["PrefV" ,"Plural" ,"Person3" ,"Fem" ,"t-"],
-      ["SuffV" ,"Singular" ,"Person1" ,"Common" ,"Common"],
-      ["SuffV" ,"Singular" ,"Person2" ,"Common" ,"-t"],
-      ["SuffV" ,"Singular" ,"Person3" ,"Masc" ,"Common"],
-      ["SuffV" ,"Singular" ,"Person3" ,"Fem" ,"-t"],
-      ["SuffV" ,"Plural" ,"Person1" ,"Common" ,"-n"],
-      ["SuffV" ,"Plural" ,"Person2" ,"Common" ,"-t-(n)"],
-      ["SuffV" ,"Plural" ,"Person3" ,"Masc" ,"Common"],
-      ["SuffV" ,"Plural" ,"Person3" ,"Fem" ,"-t"]
+      ["number" ,"person" ,"token" ,"token-note-affix"],
+      ["Singular" ,"Person1" ,"é-ka-" ,"ka-"],
+      ["Singular" ,"Person2" ,"éká-ka ~ éké-ka-" ,"ka-"],
+      ["Singular" ,"Person3" ,"í-ká-" ,"ka-"],
+      ["Plural" ,"Person1" ,"ín’ó-ka-" ,"ka-"],
+      ["Plural" ,"Person2" ,"íŋ-ka-" ,"ka-"],
+      ["Plural" ,"Person3" ,"î-ká-" ,"ka-"]
     ]
   },
   {
-    "label": "elm-Verbmorph-Subject-PrefixImperativeAffirmative",
-    "note": "H80p.189-191????CF",
+    "label": "elm-morphVerb-DervStemsmImperfectAffirmative",
+    "note": "H80p198",
+    "common": {
+      "pos": "Verb",
+      "dervedCategory": "Intransitive",
+      "polarity": "Affirmative",
+      "tam": "Imperfect",
+      "morphClass": "DervStemsm"
+    },
+    "terms": [
+      ["number" ,"person" ,"token" ,"token-note-affix"],
+      ["Intransitive" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person1" ,"en’é-e" ,"àn’á-"],
+      ["Singular" ,"Person2" ,"en’é-ke" ,"àn’á-"],
+      ["Singular" ,"Person3" ,"an’á-" ,"àn’á-"],
+      ["Plural" ,"Person1" ,"an-‘íno-" ,"àn’á-"],
+      ["Plural" ,"Person2" ,"in-‘íŋ-" ,"àn’á-"],
+      ["Plural" ,"Person3" ,"an’á-" ,"àn’á-"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-DervStemsmImperfectNegative",
+    "note": "H80p198",
+    "common": {
+      "pos": "Verb",
+      "dervedCategory": "Intransitive",
+      "polarity": "Negative",
+      "tam": "Imperfect",
+      "morphClass": "DervStemsm"
+    },
+    "terms": [
+      ["number" ,"person" ,"token" ,"token-note-affix"],
+      ["Singular" ,"Person1" ,"né-é-má-" ,"àn’á-"],
+      ["Singular" ,"Person2" ,"né-ké-má-" ,"àn’á-"],
+      ["Singular" ,"Person3" ,"ná-má-" ,"àn’á-"],
+      ["Plural" ,"Person1" ,"ná-má-" ,"àn’á-"],
+      ["Plural" ,"Person2" ,"ná-má-" ,"àn’á-"],
+      ["Plural" ,"Person3" ,"ná-má-" ,"àn’á-"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-DervStemsmPerfectAffirmative",
+    "note": "H80p197",
+    "common": {
+      "pos": "Verb",
+      "dervedCategory": "Benefactive",
+      "polarity": "Affirmative",
+      "tam": "Perfect",
+      "morphClass": "DervStemsm"
+    },
+    "terms": [
+      ["number" ,"person" ,"token" ,"token-note-affix"],
+      ["Singular" ,"Person1" ,"en-‘é-ka-" ,"ka-"],
+      ["Singular" ,"Person2" ,"en-‘éke-ka" ,"ka-"],
+      ["Singular" ,"Person3" ,"iní-ká-" ,"ka-"],
+      ["Plural" ,"Person1" ,"ín’ín’ó-ka-" ,"ka-"],
+      ["Plural" ,"Person2" ,"in’íŋ-ka-" ,"ka-"],
+      ["Plural" ,"Person3" ,"in’î-ká-" ,"ka-"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-DervStemsmPerfectAffirmative",
+    "note": "H80p198",
+    "common": {
+      "pos": "Verb",
+      "dervedCategory": "Intransitive",
+      "polarity": "Affirmative",
+      "tam": "Perfect",
+      "morphClass": "DervStemsm"
+    },
+    "terms": [
+      ["number" ,"person" ,"token" ,"token-note-affix"],
+      ["Singular" ,"Person1" ,"en-‘né-e" ,"àn-‘ánà-"],
+      ["Singular" ,"Person2" ,"en-’éne-ke" ,"àn-‘ánà-"],
+      ["Singular" ,"Person3" ,"an-’ána-" ,"àn-‘ánà-"],
+      ["Plural" ,"Person1" ,"an-‘ín-íno-" ,"àn-‘ánà-"],
+      ["Plural" ,"Person2" ,"in-‘ín-iŋ-" ,"àn-‘ánà-"],
+      ["Plural" ,"Person3" ,"an-’ána-" ,"àn-‘ánà-"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-SubjectPrefixImperativeAffirmative",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "polarity": "Affirmative",
@@ -2725,13 +2847,13 @@
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person2" ,"Common" ,"_"],
-      ["Plural" ,"Person2" ,"Common" ,"_"]
+      ["Singular" ,"Person2" ,"Common" ,"´ `"],
+      ["Plural" ,"Person2" ,"Common" ,"´ `-à"]
     ]
   },
   {
-    "label": "elm-Verbmorph-Subject-PrefixImperativeNegative",
-    "note": "H80p.189-191???",
+    "label": "elm-morphVerb-SubjectPrefixImperativeNegative",
+    "note": "BH80p190",
     "common": {
       "conjClass": "Prefix",
       "polarity": "Negative",
@@ -2742,12 +2864,12 @@
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person2" ,"Common" ,"m’á-y- ` -ì"],
-      ["Plural" ,"Person2" ,"Common" ,"_"]
+      ["Plural" ,"Person2" ,"Common" ,"'íŋ-__-ì"]
     ]
   },
   {
-    "label": "elm-Verbmorph-Subject-PrefixImperfectAffirmative",
-    "note": "H80p.189-191",
+    "label": "elm-morphVerb-SubjectPrefixImperfectAffirmative",
+    "note": "BH80p189",
     "common": {
       "conjClass": "Prefix",
       "polarity": "Affirmative",
@@ -2767,8 +2889,8 @@
     ]
   },
   {
-    "label": "elm-Verbmorph-Subject-PrefixImperfectNegative",
-    "note": "H80p.189-191",
+    "label": "elm-morphVerb-SubjectPrefixImperfectNegative",
+    "note": "BH80p189",
     "common": {
       "conjClass": "Prefix",
       "polarity": "Negative",
@@ -2787,8 +2909,8 @@
     ]
   },
   {
-    "label": "elm-Verbmorph-Subject-PrefixPerfectAffirmative",
-    "note": "H80p.189-191",
+    "label": "elm-morphVerb-SubjectPrefixPerfectAffirmative",
+    "note": "BH80p189",
     "common": {
       "conjClass": "Prefix",
       "polarity": "Affirmative",
@@ -2808,8 +2930,8 @@
     ]
   },
   {
-    "label": "elm-Verbmorph-Subject-PrefixPerfectNegative",
-    "note": "H80p.189-191",
+    "label": "elm-morphVerb-SubjectPrefixPerfectNegative",
+    "note": "BH80p189",
     "common": {
       "conjClass": "Prefix",
       "polarity": "Negative",
@@ -2828,8 +2950,8 @@
     ]
   },
   {
-    "label": "elm-Verbmorph-Subject-PrefixSubjunctiveAffirmative",
-    "note": "H80p.189-191",
+    "label": "elm-morphVerb-SubjectPrefixSubjunctiveAffirmative",
+    "note": "BH80p189",
     "common": {
       "conjClass": "Prefix",
       "polarity": "Affirmative",
@@ -2849,64 +2971,167 @@
     ]
   },
   {
-    "label": "elm-Verbmorph-Subject-Suffix",
-    "note": "H80pp.191-196 :: Note on general suffix verb pattern:Only a few verbs dispose of the full set of inflectional possibilities. Most verbs have merged various endings in one or theother way. (p. 192) Final-i/e verb pattern:“slightly divergent endings;final vowel changes to I in the subjunctive and the negative perfect,and to o in the negative imperfect”",
+    "label": "elm-morphVerb-SubjectSuffixImperativeAffirmative",
+    "note": "BH80p192 :: Note on general suffix verb pattern:Only a few verbs dispose of the full set of inflectional possibilities. Most verbs have merged various endings in one or theother way. (p. 192) Final-i/e verb pattern:'slightly divergent endings;final vowel changes to I in the subjunctive and the negative perfect,and to o in the negative imperfect'",
     "common": {
       "conjClass": "Suffix",
       "pos": "Verb",
+      "polarity": "Affirmative",
+      "tam": "Imperative",
       "morphClass": "Subject"
     },
     "terms": [
-      ["patternClass" ,"polarity" ,"tam" ,"number" ,"person" ,"gender" ,"token"],
-      ["Final-i-e" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person1" ,"Common" ,"_"],
-      ["Final-i-e" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person2" ,"Common" ,"-ta"],
-      ["Final-i-e" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person3" ,"Masc" ,"_"],
-      ["Final-i-e" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person3" ,"Fem" ,"t-a"],
-      ["Final-i-e" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person1" ,"Common" ,"-na"],
-      ["Final-i-e" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person2" ,"Common" ,"-ta(na)"],
-      ["Final-i-e" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person3" ,"Common" ,"_"],
-      ["Final-i-e" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person1" ,"Common" ,"_"],
-      ["Final-i-e" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person2" ,"Common" ,"-ta"],
-      ["Final-i-e" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person3" ,"Masc" ,"_"],
-      ["Final-i-e" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person3" ,"Fem" ,"t-a"],
-      ["Final-i-e" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person1" ,"Common" ,"-na"],
-      ["Final-i-e" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person2" ,"Common" ,"-ta(na)"],
-      ["Final-i-e" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person3" ,"Common" ,"_"],
-      ["__" ,"Affirmative" ,"Imperative" ,"Singular" ,"Person2" ,"Common" ,"_"],
-      ["__" ,"Affirmative" ,"Imperative" ,"Plural" ,"Person2" ,"Common" ,"-- -a"],
-      ["__" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person1" ,"Common" ,"aŋ ‘- ´ -à"],
-      ["__" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person2" ,"Common" ,"a ‘´ - tà"],
-      ["__" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person3" ,"Masc" ,"_"],
-      ["__" ,"Affirmative" ,"Imperfect" ,"Singular" ,"Person3" ,"Fem" ,"í ‘´ -tà"],
-      ["__" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person1" ,"Common" ,"in’ó ´-na"],
-      ["__" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person2" ,"Common" ,"‘íŋ ` -tà(n(a))"],
-      ["__" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person3" ,"Masc" ,"í ´ -à ~ isú ‘´ -ta"],
-      ["__" ,"Affirmative" ,"Imperfect" ,"Plural" ,"Person3" ,"Fem" ,"í ‘´ -tà"],
-      ["__" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person1" ,"Common" ,"an’áŋ - ` -è"],
-      ["__" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person2" ,"Common" ,"an’á ` -tè"],
-      ["__" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person3" ,"Masc" ,"in’í ` -è"],
-      ["__" ,"Affirmative" ,"Perfect" ,"Singular" ,"Person3" ,"Fem" ,"in’í ` -tè"],
-      ["__" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person1" ,"Common" ,"iníno ` -nè"],
-      ["__" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person2" ,"Common" ,"in’íŋ ` -tè(n)"],
-      ["__" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person3" ,"Masc" ,"in’í ` -è ~ in’ísu ` -è"],
-      ["__" ,"Affirmative" ,"Perfect" ,"Plural" ,"Person3" ,"Fem" ,"in’í ` -tè"],
-      ["__" ,"Negative" ,"Imperative" ,"Singular" ,"Person2" ,"Common" ,"má ` -i"],
-      ["__" ,"Negative" ,"Imperative" ,"Plural" ,"Person2" ,"Common" ,"míŋ ` -i"],
-      ["__" ,"Negative" ,"Imperfect" ,"Singular" ,"Person1" ,"Common" ,"amá ´ -ò"],
-      ["__" ,"Negative" ,"Imperfect" ,"Singular" ,"Person2" ,"Common" ,"má ´ -to ~ má ´ -i"],
-      ["__" ,"Negative" ,"Imperfect" ,"Singular" ,"Person3" ,"Masc" ,"má ´ -o"],
-      ["__" ,"Negative" ,"Imperfect" ,"Singular" ,"Person3" ,"Fem" ,"má ´ -(t)o"],
-      ["__" ,"Negative" ,"Imperfect" ,"Plural" ,"Person1" ,"Common" ,"nó-má ´ -no"],
-      ["__" ,"Negative" ,"Imperfect" ,"Plural" ,"Person2" ,"Common" ,"í-má ´ -tan ~ míŋ ´ -i"],
-      ["__" ,"Negative" ,"Imperfect" ,"Plural" ,"Person3" ,"Masc" ,"má ´ -o"],
-      ["__" ,"Negative" ,"Imperfect" ,"Plural" ,"Person3" ,"Fem" ,"má ´ -to"],
-      ["__" ,"Negative" ,"Perfect" ,"Singular" ,"Person1" ,"Common" ,"amá ´ -i"],
-      ["__" ,"Negative" ,"Perfect" ,"Singular" ,"Person2" ,"Common" ,"má ´ -i"],
-      ["__" ,"Negative" ,"Perfect" ,"Singular" ,"Person3" ,"Masc" ,"má ´ -i"],
-      ["__" ,"Negative" ,"Perfect" ,"Singular" ,"Person3" ,"Fem" ,"má ´ -i"],
-      ["__" ,"Negative" ,"Perfect" ,"Plural" ,"Person1" ,"Common" ,"nó-má ´ -i"],
-      ["__" ,"Negative" ,"Perfect" ,"Plural" ,"Person2" ,"Common" ,"í-má -i"],
-      ["__" ,"Negative" ,"Perfect" ,"Plural" ,"Person3" ,"Common" ,"má ´ -i"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"_"],
+      ["Plural" ,"Person2" ,"Common" ,"-- -a"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-SubjectSuffixImperativeNegative",
+    "note": "BH80p192 :: Note on general suffix verb pattern:Only a few verbs dispose of the full set of inflectional possibilities. Most verbs have merged various endings in one or theother way. (p. 192) Final-i/e verb pattern:''",
+    "common": {
+      "conjClass": "Suffix",
+      "pos": "Verb",
+      "polarity": "Negative",
+      "tam": "Imperative",
+      "morphClass": "Subject"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"má ` -i"],
+      ["Plural" ,"Person2" ,"Common" ,"míŋ ` -i"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-SubjectSuffixImperfectAffirmative",
+    "note": "BH80p193 :: Note on general suffix verb pattern:Only a few verbs dispose of the full set of inflectional possibilities. Most verbs have merged various endings in one or theother way. (p. 192) Final-i/e verb pattern:'slightly divergent endings;final vowel changes to I in the subjunctive and the negative perfect,and to o in the negative imperfect'",
+    "common": {
+      "conjClass": "Suffix",
+      "pos": "Verb",
+      "polarity": "Affirmative",
+      "tam": "Imperfect",
+      "patternClass": "Final-i-e",
+      "morphClass": "Subject"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"_"],
+      ["Singular" ,"Person2" ,"Common" ,"-ta"],
+      ["Singular" ,"Person3" ,"Masc" ,"_"],
+      ["Singular" ,"Person3" ,"Fem" ,"t-a"],
+      ["Plural" ,"Person1" ,"Common" ,"-na"],
+      ["Plural" ,"Person2" ,"Common" ,"-ta(na)"],
+      ["Plural" ,"Person3" ,"Common" ,"_"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-SubjectSuffixImperfectAffirmative",
+    "note": "BH80p191 :: Note on general suffix verb pattern:Only a few verbs dispose of the full set of inflectional possibilities. Most verbs have merged various endings in one or theother way. (p. 192) Final-i/e verb pattern:'slightly divergent endings;final vowel changes to I in the subjunctive and the negative perfect,and to o in the negative imperfect'",
+    "common": {
+      "conjClass": "Suffix",
+      "pos": "Verb",
+      "polarity": "Affirmative",
+      "tam": "Imperfect",
+      "morphClass": "Subject"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"aŋ ‘- ´ -à"],
+      ["Singular" ,"Person2" ,"Common" ,"a ‘´ - tà"],
+      ["Singular" ,"Person3" ,"Masc" ,"_"],
+      ["Singular" ,"Person3" ,"Fem" ,"í ‘´ -tà"],
+      ["Plural" ,"Person1" ,"Common" ,"in’ó ´-na"],
+      ["Plural" ,"Person2" ,"Common" ,"‘íŋ ` -tà(n(a))"],
+      ["Plural" ,"Person3" ,"Masc" ,"í ´ -à ~ isú ‘´ -ta"],
+      ["Plural" ,"Person3" ,"Fem" ,"í ‘´ -tà"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-SubjectSuffixImperfectNegative",
+    "note": "BH80p192 :: Note on general suffix verb pattern:Only a few verbs dispose of the full set of inflectional possibilities. Most verbs have merged various endings in one or theother way. (p. 192) Final-i/e verb pattern:'slightly divergent endings;final vowel changes to I in the subjunctive and the negative perfect,and to o in the negative imperfect'",
+    "common": {
+      "conjClass": "Suffix",
+      "pos": "Verb",
+      "polarity": "Negative",
+      "tam": "Imperfect",
+      "morphClass": "Subject"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"amá ´ -ò"],
+      ["Singular" ,"Person2" ,"Common" ,"má ´ -to ~ má ´ -i"],
+      ["Singular" ,"Person3" ,"Masc" ,"má ´ -o"],
+      ["Singular" ,"Person3" ,"Fem" ,"má ´ -(t)o"],
+      ["Plural" ,"Person1" ,"Common" ,"nó-má ´ -no"],
+      ["Plural" ,"Person2" ,"Common" ,"í-má ´ -tan ~ míŋ ´ -i"],
+      ["Plural" ,"Person3" ,"Masc" ,"má ´ -o"],
+      ["Plural" ,"Person3" ,"Fem" ,"má ´ -to"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-SubjectSuffixPerfectAffirmative",
+    "note": "BH80p193 :: Note on general suffix verb pattern:Only a few verbs dispose of the full set of inflectional possibilities. Most verbs have merged various endings in one or theother way. (p. 192) Final-i/e verb pattern:'slightly divergent endings;final vowel changes to I in the subjunctive and the negative perfect,and to o in the negative imperfect'",
+    "common": {
+      "conjClass": "Suffix",
+      "pos": "Verb",
+      "polarity": "Affirmative",
+      "tam": "Perfect",
+      "patternClass": "Final-i-e",
+      "morphClass": "Subject"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"_"],
+      ["Singular" ,"Person2" ,"Common" ,"-te"],
+      ["Singular" ,"Person3" ,"Masc" ,"_"],
+      ["Singular" ,"Person3" ,"Fem" ,"t-e"],
+      ["Plural" ,"Person1" ,"Common" ,"-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"-te"],
+      ["Plural" ,"Person3" ,"Common" ,"_"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-SubjectSuffixPerfectAffirmative",
+    "note": "BH80p191 :: Note on general suffix verb pattern:Only a few verbs dispose of the full set of inflectional possibilities. Most verbs have merged various endings in one or theother way. (p. 192) Final-i/e verb pattern:'slightly divergent endings;final vowel changes to I in the subjunctive and the negative perfect,and to o in the negative imperfect'",
+    "common": {
+      "conjClass": "Suffix",
+      "pos": "Verb",
+      "polarity": "Affirmative",
+      "tam": "Perfect",
+      "patternClass": "",
+      "morphClass": "Subject"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an’áŋ - ` -è"],
+      ["Singular" ,"Person2" ,"Common" ,"an’á ` -tè"],
+      ["Singular" ,"Person3" ,"Masc" ,"in’í ` -è"],
+      ["Singular" ,"Person3" ,"Fem" ,"in’í ` -tè"],
+      ["Plural" ,"Person1" ,"Common" ,"iníno ` -nè"],
+      ["Plural" ,"Person2" ,"Common" ,"in’íŋ ` -tè(n)"],
+      ["Plural" ,"Person3" ,"Masc" ,"in’í ` -è ~ in’ísu ` -è"],
+      ["Plural" ,"Person3" ,"Fem" ,"in’í ` -tè"]
+    ]
+  },
+  {
+    "label": "elm-morphVerb-SubjectSuffixPerfectNegative",
+    "note": "BH80p192 :: Note on general suffix verb pattern:Only a few verbs dispose of the full set of inflectional possibilities. Most verbs have merged various endings in one or theother way. (p. 192) Final-i/e verb pattern:'slightly divergent endings;final vowel changes to I in the subjunctive and the negative perfect,and to o in the negative imperfect'",
+    "common": {
+      "conjClass": "Suffix",
+      "pos": "Verb",
+      "polarity": "Negative",
+      "tam": "Perfect",
+      "morphClass": "Subject"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"amá ´ -i"],
+      ["Singular" ,"Person2" ,"Common" ,"má ´ -i"],
+      ["Singular" ,"Person3" ,"Masc" ,"má ´ -i"],
+      ["Singular" ,"Person3" ,"Fem" ,"má ´ -i"],
+      ["Plural" ,"Person1" ,"Common" ,"nó-má ´ -i"],
+      ["Plural" ,"Person2" ,"Common" ,"í-má -i"],
+      ["Plural" ,"Person3" ,"Common" ,"má ´ -i"]
     ]
   }
 ]}
